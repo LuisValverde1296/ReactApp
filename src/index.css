@@ -1,0 +1,93 @@
+body, #principal {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("background1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  html {
+      font-size: 16px;
+  }
+}
+
+.timer-container{
+  background: rgb(2,57,57);
+  background: linear-gradient(0deg, rgba(2,57,57,1) 0%, rgba(255,255,255,0.3) 50%, rgba(2,57,57,1) 100%);
+  border: 1px solid lightblue;
+  margin-bottom: 5px;
+  display: block;
+  padding: 5px;
+  padding-bottom: 3px;
+  overflow: auto;
+  width: auto;
+}
+
+.btn-timer{
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, rgba(0,0,0,1) 100%);
+  border-color: lightblue;
+  color:white;
+  margin-top: 5px;
+}
+
+.timer-card{
+  border-color: white;
+  width: 80%;
+}
+
+.timer-header{
+  border-color: white;
+  background-color:  #00131a;
+}
+
+.timer-body{
+  background-color:  #00394d;
+  border-color: white;
+}
+
+.my-label{
+  background: rgb(48,85,85);
+  background: linear-gradient(0deg, rgba(48,85,85,1) 0%, rgba(0,251,227,0.4) 50%, rgba(48,85,85,1) 100%);
+  border: 1px solid lightblue;
+  color: white;
+  display: block;
+  font-size: 18px;
+  margin: auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 5px;
+  overflow: auto;
+  width: auto;
+}
+
+.container{
+  align-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.child {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
